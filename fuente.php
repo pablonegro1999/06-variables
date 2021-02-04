@@ -6,7 +6,7 @@
 ?>
 
 <b><H3>Se quiere construir un jardín de 1 m de ancho alrededor de una fuente circular de 4 m de diámetro. Si la profundidad de la fuente es de 0.75 m ¿cuántos litros caben? </H3></b>
-
+<td rowspan=2><img src="fuente.jpg" width="550"> </td>
 
 	<td>radio</td>
 	<td><input id="a" name="a" placeholder="radio" onkeyup="calcular()" value="<?=$_GET['a']?>"/> cm</td>	</br>

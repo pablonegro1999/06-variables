@@ -1,12 +1,12 @@
 
 <?php
-	if(!isset($_GET['a'])) $_GET['a']=2;
-	if(!isset($_GET['b'])) $_GET['b']=1.6;		if(!isset($_GET['c'])) $_GET['c']=10;
+	if(!isset($_GET['a'])) $_GET['a']=20;
+	if(!isset($_GET['b'])) $_GET['b']=16;		if(!isset($_GET['c'])) $_GET['c']=10;
 	
 ?>
 
 <b><H3>Calcula el área de un trapecio de 10cm de altura y cuyas bases miden 200mm y 160 mm. </H3></b>
-
+<td rowspan=2><img src="trapecio.jpg" width="550"> </td>
 
 	<td>base Mayor</td>
 	<td><input id="a" name="a" placeholder="base M" onkeyup="calcular()" value="<?=$_GET['a']?>"/> cm</td>	</br>

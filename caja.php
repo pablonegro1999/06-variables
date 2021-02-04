@@ -6,7 +6,7 @@
 ?>
 
 <b><H3>Queremos fabricar una caja de base cuadrada, de tal manera que la altura de la caja más el perímetro de la base sumen 60 cm. Determina sus dimensiones para que contenga el mayor volumen posible </H3></b>
-
+<td rowspan=2><img src="caja.jpg" width="550"> </td>
 
 	<td>lado</td>
 	<td><input id="a" name="a" placeholder="lado" onkeyup="calcular()" value="<?=$_GET['a']?>"/> cm</td>	</br>
